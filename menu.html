@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu | Dar Moussa | Grillades &amp; Spécialités</title>
+<meta name="description" content="La carte de Dar Moussa : grillades, entrées, accompagnements et desserts maison à Annaba.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">DAR MOUSSA</span>
+      <span class="brand-ar arabic">دار موسى</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="menu.html" aria-current="page">Menu</a></li>
+      <li><a href="about.html">Notre Histoire</a></li>
+      <li><a href="gallery.html">Galerie</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="tel:+213662621874" class="btn btn-primary">Appeler</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="page-banner">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Accueil</a> / Menu</div>
+      <h1>La carte</h1>
+      <p>Grillades au feu de bois, entrées fraîches et douceurs maison, tout ce que Dar Moussa sert du premier accueil au dernier café.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="menu-tabs" role="tablist" aria-label="Filtrer le menu par catégorie">
+        <button class="menu-tab active" data-target="cat-entrees">Entrées</button>
+        <button class="menu-tab" data-target="cat-grillades">Grillades</button>
+        <button class="menu-tab" data-target="cat-accompagnements">Accompagnements</button>
+        <button class="menu-tab" data-target="cat-desserts">Desserts</button>
+        <button class="menu-tab" data-target="cat-boissons">Boissons</button>
+      </div>
+
+      <div class="menu-category" id="cat-entrees">
+        <div class="menu-category-title">
+          <h3>Entrées</h3>
+          <span class="arabic">المقبلات</span>
+        </div>
+        <div class="menu-list">
+          <div class="menu-item">
+            <div class="menu-item-name">
+              <div>
+                <div class="menu-item-name"><h4>Chorba Frik</h4><span class="menu-item-tag">Maison</span></div>
+                <p class="menu-item-desc">Soupe traditionnelle au blé vert et agneau.</p>
+              </div>
+            </div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">350 DA</span>
+          </div>
+          <div class="menu-item">
+            <div>
+              <div class="menu-item-name"><h4>Salade grillée Dar Moussa</h4><span class="menu-item-tag">Végé</span></div>
+              <p class="menu-item-desc">Poivrons, tomates et oignons grillés au feu de bois.</p>
+            </div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">400 DA</span>
+          </div>
+          <div class="menu-item">
+            <div>
+              <h4>Brick à l'œuf</h4>
+              <p class="menu-item-desc">Feuille croustillante, œuf, thon et persil.</p>
+            </div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">300 DA</span>
+          </div>
+          <div class="menu-item">
+            <div>
+              <div class="menu-item-name"><h4>Assiette de crudités</h4><span class="menu-item-tag">Végé</span></div>
+              <p class="menu-item-desc">Sélection de légumes de saison, citron et huile d'olive.</p>
+            </div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">280 DA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category" id="cat-grillades">
+        <div class="menu-category-title">
+          <h3>Grillades</h3>
+          <span class="arabic">المشاوي</span>
+        </div>
+        <div class="menu-list">
+          <div class="menu-item">
+            <div>
+              <div class="menu-item-name"><h4>Mixte Grillade Dar Moussa</h4><span class="menu-item-tag">Best-seller</span></div>
+              <p class="menu-item-desc">Merguez, kefta et brochettes de poulet, pain maison.</p>
+            </div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">1 400 DA</span>
+          </div>
+          <div class="menu-item">
+            <div>
+              <h4>Côtelettes d'agneau</h4>
+              <p class="menu-item-desc">Marinées à l'ancienne, servies avec salade grillée.</p>
+            </div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">1 900 DA</span>
+          </div>
+          <div class="menu-item">
+            <div>
+              <h4>Brochettes de poulet</h4>
+              <p class="menu-item-desc">Mariné aux épices douces, cuit au charbon de bois.</p>
+            </div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">900 DA</span>
+          </div>
+          <div class="menu-item">
+            <div>
+              <h4>Merguez maison</h4>
+              <p class="menu-item-desc">Préparée sur place chaque matin, épices maison.</p>
+            </div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">850 DA</span>
+          </div>
+          <div class="menu-item">
+            <div>
+              <h4>Kefta à la Dar Moussa</h4>
+              <p class="menu-item-desc">Recette familiale, riz et légumes grillés.</p>
+            </div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">1 100 DA</span>
+          </div>
+          <div class="menu-item">
+            <div>
+              <div class="menu-item-name"><h4>Plateau Famille (4 pers.)</h4><span class="menu-item-tag">Familial</span></div>
+              <p class="menu-item-desc">Sélection de grillades à partager en famille.</p>
+            </div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">4 800 DA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category" id="cat-accompagnements">
+        <div class="menu-category-title">
+          <h3>Accompagnements</h3>
+          <span class="arabic">الأطباق الجانبية</span>
+        </div>
+        <div class="menu-list">
+          <div class="menu-item">
+            <div><h4>Frites maison</h4></div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">250 DA</span>
+          </div>
+          <div class="menu-item">
+            <div><h4>Riz au beurre</h4></div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">220 DA</span>
+          </div>
+          <div class="menu-item">
+            <div><h4>Légumes grillés</h4></div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">300 DA</span>
+          </div>
+          <div class="menu-item">
+            <div><h4>Pain maison</h4></div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">100 DA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category" id="cat-desserts">
+        <div class="menu-category-title">
+          <h3>Desserts</h3>
+          <span class="arabic">الحلويات</span>
+        </div>
+        <div class="menu-list">
+          <div class="menu-item">
+            <div>
+              <h4>Zlabia maison</h4>
+              <p class="menu-item-desc">Servie tiède, croustillante et parfumée au miel.</p>
+            </div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">250 DA</span>
+          </div>
+          <div class="menu-item">
+            <div><h4>Assiette de fruits de saison</h4></div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">300 DA</span>
+          </div>
+          <div class="menu-item">
+            <div><h4>Kalb el louz</h4></div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">280 DA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category" id="cat-boissons">
+        <div class="menu-category-title">
+          <h3>Boissons</h3>
+          <span class="arabic">المشروبات</span>
+        </div>
+        <div class="menu-list">
+          <div class="menu-item">
+            <div><h4>Thé à la menthe</h4></div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">150 DA</span>
+          </div>
+          <div class="menu-item">
+            <div><h4>Jus d'orange pressé</h4></div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">250 DA</span>
+          </div>
+          <div class="menu-item">
+            <div><h4>Sélection de sodas</h4></div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">150 DA</span>
+          </div>
+          <div class="menu-item">
+            <div><h4>Café / Expresso</h4></div>
+            <span class="menu-item-dots"></span>
+            <span class="menu-item-price">120 DA</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="gallery-note">Prix indicatifs pour la maquette, à confirmer avec l'équipe Dar Moussa avant mise en ligne.</p>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark">DAR MOUSSA</span>
+        <p style="margin-top:0.8rem;max-width:32ch;">La maison qui reçoit, grillades traditionnelles algériennes, à Annaba, depuis toujours.</p>
+      </div>
+      <div>
+        <h5>Navigation</h5>
+        <ul>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">Notre Histoire</a></li>
+          <li><a href="gallery.html">Galerie</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Suivez nous</h5>
+        <ul>
+          <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram : @dar.mou.ssa</a></li>
+          <li><a href="https://tiktok.com" target="_blank" rel="noopener">TikTok : @dar_moussa_officiel_</a></li>
+          <li><a href="tel:+213662621874">Téléphone : 06 62 62 18 74</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Dar Moussa · دار موسى. Tous droits réservés.</span>
+      <span>Prototype de site, Annaba, Algérie</span>
+    </div>
+  </div>
+</footer>
+
+<a href="tel:+213662621874" class="call-float" aria-label="Appeler Dar Moussa">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  Appeler
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
